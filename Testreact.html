@@ -10,8 +10,16 @@
  
 
 var GoodDeal=React.createClass({
-    render(){
-        return <div> Hello World</div>;
+      getpromodata() {
+          return <div>HEllo !</div>
+      
+      },
+       renderpromotion()
+       {
+        return "Promo Atul"
+       },
+       render(){
+        return <div>{this.renderpromotion()}</div>;
     }
     
 });
